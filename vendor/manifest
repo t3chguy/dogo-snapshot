@@ -1,0 +1,44 @@
+{
+	"version": 0,
+	"dependencies": [
+		{
+			"importpath": "cloud.google.com/go/compute/metadata",
+			"repository": "https://code.googlesource.com/gocloud",
+			"revision": "bdd10387fea2497d530c053ab3df52c8ed22f4b5",
+			"branch": "master",
+			"path": "/compute/metadata"
+		},
+		{
+			"importpath": "github.com/digitalocean/godo",
+			"repository": "https://github.com/digitalocean/godo",
+			"revision": "34840385860db94c88d044571153b6a200ca40b2",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/google/go-querystring/query",
+			"repository": "https://github.com/google/go-querystring",
+			"revision": "53e6ce116135b80d037921a7fdd5138cf32d7a8a",
+			"branch": "master",
+			"path": "/query"
+		},
+		{
+			"importpath": "github.com/tent/http-link-go",
+			"repository": "https://github.com/tent/http-link-go",
+			"revision": "ac974c61c2f990f4115b119354b5e0b47550e888",
+			"branch": "master"
+		},
+		{
+			"importpath": "golang.org/x/net/context",
+			"repository": "https://go.googlesource.com/net",
+			"revision": "f5079bd7f6f74e23c4d65efa0f4ce14cbd6a3c0f",
+			"branch": "master",
+			"path": "/context"
+		},
+		{
+			"importpath": "golang.org/x/oauth2",
+			"repository": "https://go.googlesource.com/oauth2",
+			"revision": "b53b38ad8a6435bd399ea76d0fa74f23149cca4e",
+			"branch": "master"
+		}
+	]
+}

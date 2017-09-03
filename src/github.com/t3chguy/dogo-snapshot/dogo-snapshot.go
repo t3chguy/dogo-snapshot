@@ -88,7 +88,7 @@ func main() {
 	})
 	client := godo.NewClient(oauthClient)
 
-	ss, _, err := client.Snapshots.ListDroplet(context.Background(), nil)
+	ss, _, err := client.Snapshots.ListDroplet(context.Background(), &godo.ListOptions{PerPage: 200})
 	snapshots := DateOrderedSnapshots(ss).filterName(snapshotName)
 	sort.Sort(snapshots)
 
